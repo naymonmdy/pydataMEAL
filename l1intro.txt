@@ -1,0 +1,28 @@
+=> Enviroment
+    (i) Text Editor
+    (i) IDE (Indegrated Development Enviroment)
+
+
+=> Who Use Python
+    (i)Software Developers
+        Backend Developers ,web application (eg. Django, Flask)
+    (ii) Data Scientists and Analyst
+        Data Analysis ,Data Visualization, statistical modeling
+    (iii) AI and Machine Learning
+        TensorFlow,Phtorch,Keras
+    (iv) Engineers
+        automation,simulations
+    (v) Cybersecurity
+    (vi) Game Developers
+        Pygame
+    
+=> Comment (inline Comment)
+#
+'''
+
+'''
+
+###
+
+
+###

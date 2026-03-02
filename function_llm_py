@@ -1,0 +1,46 @@
+print("hello")
+print(round(23.4))
+
+
+#Area of rectangle
+
+length = float(input("Enter length = "))
+height = float(input("Enter height = "))
+
+def rec_area (length,height):
+    area = length*height
+    return area
+
+rec_area1 = rec_area(length,height)
+
+
+print(f"Area of Rectangle is {rec_area1} ")
+
+
+#multiply *args
+
+def multiply(*data):
+    total = 1
+    for data in data:
+        total *= data
+    return total
+
+print (f"The result is  {multiply(2,4,5,3,4)}")
+
+
+# **kwargs
+
+def save_user(**user):
+    print(user['name'])
+    
+
+save_user(id=1,name="Khin Khin",age=20)
+
+
+
+def stundent_info(*arg,**kwargs):
+    print(arg)
+    print(kwargs)
+
+
+stundent_info("Myanmar","Mandalay","python",name="Nay Nay",age="33")

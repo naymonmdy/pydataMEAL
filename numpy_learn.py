@@ -82,3 +82,26 @@ print(arr4_transpose)
 # S = String 
 # U = unicode String 
 # V = void type
+
+print(arr4.dtype) #int64
+
+arr5 = np.array(["melon","banana","stawberry"],dtype="S")
+print(arr5.dtype)
+
+
+arr6 = np.array([1,2,4],dtype="S")
+print(arr6.dtype)
+
+#To convert data type
+arr6 =arr6.astype("i")
+print(arr6)
+print(arr6.dtype)
+
+arr6 =arr6.astype(bool)
+print(arr6)
+print(arr6.dtype)
+
+
+arr5 =arr5.astype(bool)
+print(arr5)
+print(arr5.dtype)
